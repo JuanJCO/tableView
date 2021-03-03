@@ -15,6 +15,7 @@
 		E11E8FE225DC740600101141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11E8FE025DC740600101141 /* LaunchScreen.storyboard */; };
 		E11E8FED25DC740600101141 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11E8FEC25DC740600101141 /* TableViewTests.swift */; };
 		E11E8FF825DC740600101141 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11E8FF725DC740600101141 /* TableViewUITests.swift */; };
+		E11E900925DC80AB00101141 /* ThirtyDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11E900825DC80AB00101141 /* ThirtyDayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E11E8FF325DC740600101141 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11E8FF725DC740600101141 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		E11E8FF925DC740600101141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11E900825DC80AB00101141 /* ThirtyDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyDayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E11E8FDE25DC740600101141 /* Assets.xcassets */,
 				E11E8FE025DC740600101141 /* LaunchScreen.storyboard */,
 				E11E8FE325DC740600101141 /* Info.plist */,
+				E11E900825DC80AB00101141 /* ThirtyDayCell.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11E900925DC80AB00101141 /* ThirtyDayCell.swift in Sources */,
 				E11E8FDA25DC740300101141 /* ViewController.swift in Sources */,
 				E11E8FD625DC740300101141 /* AppDelegate.swift in Sources */,
 				E11E8FD825DC740300101141 /* SceneDelegate.swift in Sources */,
